@@ -1,4 +1,4 @@
-# Mahtab Uddin Ahmed - Business Intelligence Portfolio
+# Mahtab Uddin Ahmed - Portfolio Website
 
 A modern, professional portfolio website showcasing expertise in Business Intelligence, data visualization, and analytics. Built with **HTML & CSS** for optimal performance and simplicity.
 
@@ -20,7 +20,7 @@ A modern, professional portfolio website showcasing expertise in Business Intell
 
 ---
 
-## ✨ Features
+##Features
 
 ### Core Functionality
 - ✅ **Fully Responsive** - Mobile, tablet, and desktop optimized
@@ -40,7 +40,7 @@ A modern, professional portfolio website showcasing expertise in Business Intell
 
 ---
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 mahtab_Uddin_ahmed_portfolio/
@@ -59,7 +59,7 @@ mahtab_Uddin_ahmed_portfolio/
 
 ---
 
-## 🎨 Design System
+##Design System
 
 ### Color Palette
 
@@ -85,7 +85,7 @@ mahtab_Uddin_ahmed_portfolio/
 
 ---
 
-## 📄 Sections Overview
+##Sections Overview
 
 ### 1. **Navigation Bar**
 - Fixed header with logo and three nav links
@@ -152,7 +152,7 @@ mahtab_Uddin_ahmed_portfolio/
 
 ---
 
-## 🛠 Technologies Used
+##Technologies Used
 
 - **HTML5** - Semantic markup, meta tags for SEO
 - **CSS3** - Custom properties, Grid, Flexbox, animations
@@ -165,7 +165,7 @@ mahtab_Uddin_ahmed_portfolio/
 
 ---
 
-## 🔧 Customization Guide
+## Customization Guide
 
 ### Updating Your Profile Photo
 Replace the hero section image URL in the HTML:
@@ -246,7 +246,7 @@ Modify the href attributes in the contact section:
 
 ---
 
-## ♿ Accessibility
+##Accessibility
 
 ### Features
 - ✅ Semantic HTML structure (`<nav>`, `<section>`, `<footer>`)
@@ -265,7 +265,7 @@ Users who prefer reduced motion will experience:
 
 ---
 
-## 🚀 Deployment
+##Deployment
 
 This site is built with **GitHub Pages** and deploys automatically from the `main` branch.
 
@@ -278,7 +278,7 @@ This site is built with **GitHub Pages** and deploys automatically from the `mai
 
 ---
 
-## 📊 Social Media Preview
+##Social Media Preview
 
 The portfolio includes optimized meta tags for sharing:
 - **Open Graph** tags for Facebook, LinkedIn, etc.
@@ -293,24 +293,13 @@ When shared on social platforms, shows:
 
 ---
 
-## 💡 Tips for Success
-
-1. **Keep Content Updated** - Refresh your experience and projects regularly
-2. **Add Dashboard Links** - Embed real Power BI/Tableau projects
-3. **Use High-Quality Images** - Professional headshot recommended
-4. **Test on Mobile** - Ensure all links work on smaller screens
-5. **Monitor Analytics** - Use GitHub Pages analytics to track visitors
-6. **Share Your Portfolio** - Post on LinkedIn, Twitter, email signatures
-
----
-
-## 📝 License
+##License
 
 This portfolio template is open source and available for personal use. Feel free to fork, customize, and deploy your own version.
 
 ---
 
-## 👤 About
+##About
 
 **Portfolio Owner:** Mahtab Uddin Ahmed  
 **Professional Focus:** Business Intelligence, Data Visualization, Analytics  
@@ -318,7 +307,7 @@ This portfolio template is open source and available for personal use. Feel free
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Have suggestions or improvements? Feel free to:
 1. Fork the repository
@@ -329,7 +318,7 @@ Have suggestions or improvements? Feel free to:
 
 ---
 
-## 📧 Contact
+## Contact
 
 - **Email:** Available in portfolio contact section
 - **LinkedIn:** Available in portfolio contact section
@@ -337,7 +326,7 @@ Have suggestions or improvements? Feel free to:
 
 ---
 
-## 🙏 Acknowledgments
+##Acknowledgments
 
 - **Google Fonts** for Playfair Display & Inter typefaces
 - **Material Design** for icon symbols
@@ -352,7 +341,7 @@ Have suggestions or improvements? Feel free to:
 
 ---
 
-### 📈 Performance Metrics
+###Performance Metrics
 
 - **Page Load Time:** < 2 seconds
 - **Lighthouse Score:** 90+
@@ -362,4 +351,4 @@ Have suggestions or improvements? Feel free to:
 
 ---
 
-**Happy showcasing! 🚀**
+**Happy showcasing!**
