@@ -60,12 +60,12 @@
     ul { list-style: none; }
 
     /* ─── NAV ────────────────────────────────────────── */
-    nav {
+nav {
       position: fixed;
       top: 0; right: 0; left: 0;
       z-index: 100;
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
       align-items: center;
       gap: 2.5rem;
       padding: 1rem 3rem;
@@ -73,6 +73,7 @@
       backdrop-filter: blur(8px);
       border-bottom: 1px solid var(--white-faint);
     }
+    .nav-logo { margin-right: auto; }
     nav a {
       font-size: 0.9rem;
       font-weight: 500;
@@ -787,6 +788,13 @@ nav a {
 
   <!-- NAV -->
   <nav>
+  <a href="#hero" class="nav-logo" aria-label="Home">
+    <img src="https://raw.githubusercontent.com/m-ahinab/mahtab_Uddin_ahmed_portfolio/refs/heads/main/Mahtab%20Logo.svg"
+         alt="Mahtab Logo"
+         style="height:35px;width:auto;display:block;" />
+  </a>
+  <a href="#hero" class="active" data-nav="hero">
+
   <a href="#hero" class="active" data-nav="hero">
     <span class="material-symbols-rounded">user_attributes</span>
     Profile
