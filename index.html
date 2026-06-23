@@ -731,11 +731,31 @@
     }
 
     /* ─── RESPONSIVE ─────────────────────────────────── */
-    @media (max-width: 900px) {
-      section { padding: 3.5rem 1.5rem; }
-      nav { padding: 1rem 1.5rem; gap: 1.5rem; }
-      #hero { grid-template-columns: 1fr; padding: 7rem 1.5rem 2rem; }
-      .hero-photo { display: none; }
+	@media (max-width: 900px) {
+  section { padding: 3.5rem 1.5rem; }
+  nav { padding: 1rem 1.5rem; gap: 1.5rem; }
+  #hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 6rem 1.5rem 2rem;
+    text-align: center;
+  }
+  .hero-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: -1;
+    margin-bottom: 1.5rem;
+  }
+  .hero-photo img {
+    max-height: 45vh;
+    max-width: 75%;
+    object-fit: contain;
+    object-position: center;
+  }
+  .hero-text {
+    text-align: left;
+  }
       #skills-certs { grid-template-columns: 1fr; }
       .skills-col { border-right: none; border-bottom: 1px solid var(--white-faint); padding: 3.5rem 1.5rem; }
       .certs-col { padding: 3.5rem 1.5rem; }
