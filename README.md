@@ -45,7 +45,7 @@ A modern, professional portfolio website showcasing expertise in Business Intell
 ```
 mahtab_Uddin_ahmed_portfolio/
 ├── index.html                          # Main portfolio file (single-page app)
-├── Mahtab Logo.svg                     # Navigation logo
+├── Mahtab Logo.svg                     # My logo
 ├── Mahtab Uddin Ahmed Profile Photo.svg # Hero section profile photo
 ├── PBI Logo.svg                        # Power BI skill icon
 ├── Tableau Logo.svg                    # Tableau skill icon
