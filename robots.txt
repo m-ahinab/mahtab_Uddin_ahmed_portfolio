@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://m-ahinab.github.io/mahtab_Uddin_ahmed_portfolio/sitemap.xml
