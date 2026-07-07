@@ -120,6 +120,7 @@
       --white:       #f0ede4;
       --white-dim:   rgba(240,237,228,0.75);
       --white-faint: rgba(240,237,228,0.15);
+	  --pale-green:	 #D1FAE5;
       --skill-bar:   #b5d246;
       --radius:      6px;
       --transition:  0.35s cubic-bezier(.4,0,.2,1);
@@ -643,6 +644,14 @@ nav a {
       color: var(--gold-dim);
       font-weight: 500;
     }
+    .dash-desc {
+      margin-top: 0.85rem;
+      font-size: 0.82rem;
+      color: var(--pale-green);
+      opacity: 60%;
+      line-height: 1.75;
+      max-width: auto;
+    }
 
     /* ─── BACKGROUND / EDUCATION ────────────────────── */
     #background { background: var(--bg); }
@@ -1137,8 +1146,15 @@ nav a {
         <span class="dash-tag">Microsoft Fabric</span>
         <span class="dash-tag">FP&amp;A</span>
         <span class="dash-tag">Recovery Analytics</span>
-	<span class="dash-tag">SQL</span>
+		<span class="dash-tag">SQL</span>
       </div>
+      <p class="dash-desc">
+        A CXO-level recovery performance monitoring dashboard built with Power BI and Microsoft Fabric.
+        Tracks route-wise collection trends, overdue segmentation, and recovery KPIs in real time.
+        Features multi-tab navigation, drill-down, drill-through, and custom tooltips enabling progressive disclosure design. 
+        Designed to support real-time data-driven decision-making for recovery operations.
+        Built using Power BI, Advanced DAX, SQL, and Microsoft Fabric with automated data refresh.
+      </p>		
     </div>
 
     <!-- Panel 1: Territory Ranking (Power BI) -->
@@ -1157,8 +1173,15 @@ nav a {
       <div class="dash-meta">
         <span class="dash-tag">Power BI</span>
         <span class="dash-tag">Microsoft Fabric</span>
-	<span class="dash-tag">SQL</span>
+		<span class="dash-tag">SQL</span>
       </div>
+		<p class="dash-desc">
+        A dynamic territory ranking and benchmarking dashboard developed in Power BI.
+        Enables comparative performance analysis across recovery territories.
+        Visualizes ranking trends, target achievement rates, and regional variance using interactive charts and slicers.
+        Supports strategic territory management and resource allocation decisions through clear visual storytelling.
+        Built using Power BI, DAX measures, and SQL-based data modelling.
+      </p>
     </div>
 
     <!-- Panel 2: Delinquency Customer (Power BI) -->
@@ -1179,6 +1202,13 @@ nav a {
         <span class="dash-tag">Excel</span>
         <span class="dash-tag">SQL</span>
       </div>
+		<p class="dash-desc">
+        A credit risk analytics dashboard focused on identifying and monitoring delinquent customer segments.
+        Provides overdue aging analysis, customer-level delinquency classification, and trend tracking
+        across multiple time periods. Enables proactive credit risk management through visual segmentation
+        of high-risk accounts. Developed using Power BI with advanced DAX calculations,
+        Excel-based data preparation and SQL queries for data extraction and transformation.
+      </p>	
     </div>
 
     <!-- Panel 3: Receivables Control (Power BI) -->
@@ -1197,6 +1227,14 @@ nav a {
         <span class="dash-tag">Power BI</span>
         <span class="dash-tag">Microsoft Fabric</span>
       </div>
+	    <p class="dash-desc">
+        A receivables monitoring FP&A dashboard designed for hire-purchase and instalment-based
+        portfolio management. Tracks outstanding balances, collection performance, overdue ageing,
+        and payment pattern analysis. Provides CFO with real-time visibility into
+        receivables health and cash flow risk indicators. Built with Power BI and Microsoft Fabric,
+        featuring automated data refresh, dynamic filtering, and drill-through capabilities
+        for granular account-level investigation.
+      </p>	
     </div>
 
     <!-- Panel 4: Unresolved Observations (Tableau) -->
@@ -1223,6 +1261,14 @@ nav a {
     <span class="dash-tag">SQL</span>
     <span class="dash-tag">Data Visualization</span></p>
   </div>
+  <p class="dash-desc">
+    An operational observations tracking dashboard built with Tableau.
+    Monitors unresolved and pending items across a product portfolio, enabling teams to
+    Prioritize follow-ups and reduce resolution time. Features status-based filtering,
+    ageing analysis and trend visualization for open-observation items.
+    Developed using Tableau, with data prepared through Google Sheets and SQL,
+    demonstrating end-to-end data pipeline and visualization capability.
+  </p>	
 </div>
 
 <!-- Panel 5: Off-Road Vehicles (Tableau) -->
@@ -1249,6 +1295,14 @@ nav a {
     <span class="dash-tag">SQL</span>
     <span class="dash-tag">Data Visualization</span>
   </div>
+  <p class="dash-desc">
+    A vehicle monitoring dashboard created in Tableau Public.
+    Tracks key operational metrics for vehicles sold on credit and staying off-road, including reasons for being off-road,
+    action taken or action planned, resolution status,  and territory-wise distribution analysis. Interactive filters enable
+    drill-down by vehicle category, territory, and time period. Built using Tableau with
+    Excel-based data modelling and SQL for data extraction, showcasing skills in
+    operational analytics, and interactive data storytelling.
+  </p>	
 </div>
   </section>
 
